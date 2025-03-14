@@ -3,12 +3,11 @@ import pluginJs from '@eslint/js';
 import airbnbBase from 'eslint-config-airbnb-base';
 
 /** @type {import('eslint').Linter.Config[]} */
-export default [
+module.exports = [
   airbnbBase,
   { languageOptions: { globals: globals.node } },
   {
     env: {
-      // Other settings
       jest: true,
     },
   },

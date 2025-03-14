@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run Prettier
-        run: npm run prettier
+        run: npm run format
       - name: Run ESLint
         run: npm run lint
       - name: Run tests

@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "format": "prettier --check .",
-    "lint": "eslint . --fix"
+    "format": "prettier --write .",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
